@@ -3,7 +3,7 @@ import Register from "./Register";
 
 function App() {
   return (
-    // We add the specific basename here so the router matches the URL
+    // ⚠️ CRITICAL: Add basename here ⚠️
     <BrowserRouter basename="/my-register-app">
       <Routes>
         <Route path="/" element={<Register />} />
