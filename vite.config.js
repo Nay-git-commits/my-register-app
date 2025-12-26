@@ -4,5 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/my-register-app/', // <--- Add this line!
+  // ⚠️ THIS MUST MATCH YOUR REPO NAME EXACTLY ⚠️
+  base: '/my-register-app/', 
 })
